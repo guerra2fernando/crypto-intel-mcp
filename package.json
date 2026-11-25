@@ -1,0 +1,10 @@
+{
+  "name": "crypto-intel-mcp",
+  "version": "2.1.0",
+  "description": "Token risk intelligence API for AI agents: DexScreener liquidity, volume, momentum and a risk verdict, x402-paid and MCP-callable.",
+  "keywords": ["mcp", "crypto", "defi", "x402", "token-risk", "base"],
+  "homepage": "https://crypto-intel-mcp.lengrowth.workers.dev",
+  "repository": {"type": "git", "url": "https://github.com/guerra2fernando/crypto-intel-mcp"},
+  "license": "MIT",
+  "mcp": {"transport": "http", "url": "https://crypto-intel-mcp.lengrowth.workers.dev"}
+}
