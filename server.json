@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.guerra2fernando/crypto-intel-mcp",
+  "description": "Crypto token risk intelligence for AI agents and trading bots. Given a Base token address, returns DexScreener liquidity, 24h volume, momentum and a risk verdict in about a second. Paid per call in USDC via x402 (no signup, no API key).",
+  "version": "2.1.0",
+  "websiteUrl": "https://crypto-intel-mcp.lengrowth.workers.dev/",
+  "repository": { "url": "https://github.com/guerra2fernando/crypto-intel-mcp", "source": "github" },
+  "remotes": [
+    { "type": "streamable-http", "url": "https://crypto-intel-mcp.lengrowth.workers.dev/" }
+  ],
+  "tools": [
+    { "name": "token_risk", "description": "Return liquidity, 24h volume, momentum and a risk verdict for a Base token address." }
+  ]
+}
